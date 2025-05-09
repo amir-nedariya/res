@@ -1,0 +1,174 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    border-bottom:1px solid gray ;
+}
+
+.nav button{
+    font-size: 1vw;
+    padding: 0.7vw 1.4vw;
+    background-color: #FF735C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.logo{
+    color: #FF735C;
+}
+
+.nav-part-2{
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+
+.nav h2{
+    font-size: 2vw;
+    font-weight: 700;
+}
+ .nav i{
+        font-size: 2vw;
+        display: none;
+    }
+
+    /* contant */
+
+    .contant{
+        /* background-color: bisque; */
+        height: calc(100% - 100px);
+        width: 100%;
+        display: flex;
+    }
+
+    .left{
+        height: 100%;
+        width: 50%;
+        /* background-color: red; */
+        padding: 5vw 5vw;
+    }
+
+    .left h1{
+        font-size: 4.2vw;
+        line-height: 4.4vw;
+    }
+
+    .left h1 span{
+        color: #FF735C;
+    }
+
+    .left p{
+        font-size: 1.4vw;
+        padding: 2.5vw 0;
+    }
+
+
+    .right{
+        height: 100%;
+        width: 50%;
+        /* background-color:blue; */
+    }
+
+    .right img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .contant button {
+        font-size: 1.5vw;
+        padding: 1.3vw 2.3vw;
+        background-color: #FF735C;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-weight: 700;
+      }
+      
+      
+      
+
+@media (max-width:600px) {
+    *{
+        overflow: hidden;
+    }
+    .nav{
+        border: none;
+        padding: 0 5vw;
+    }
+    .nav h2{
+        font-size: 6vw;
+    }
+
+    .nav h4{
+        font-size: 4vw;
+        display: none;
+    }
+
+    .nav button{
+        display: none;
+    }
+     .nav i{
+        font-size: 4.5vw;
+        display: block;
+    }
+  /* .contant */
+  .contant{
+    height: calc(100% - 60px);
+    flex-direction: column;
+  }
+
+  .left{
+    width: 100%;
+    height: 55%;
+  }
+
+  .left h1{
+    font-size: 9.5vw;
+    line-height: 11vw;
+  }
+
+  .left p{
+    font-size: 4vw;
+    padding: 5.5vw 0;
+    margin:4vw 0vw 2.3vw 0vw; 
+
+}
+
+.contant button {
+    font-size: 3vw;
+    padding: 3vw 6vw;
+    background-color: #FF735C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+
+  .right{
+    width: 100%;
+    height: 45%;
+  }
+
+}
