@@ -29,14 +29,14 @@ html , body{
 .nav button{
     font-size: 1vw;
     padding: 0.7vw 1.4vw;
-    background-color: gold;
+    background-color: #FF735C;
     color: white;
     border: none;
     border-radius: 5px;
     font-weight: 600;
 }
 .logo{
-    color: gold;
+    color: #FF735C;
 }
 
 .nav-part-2{
@@ -76,7 +76,7 @@ html , body{
     }
 
     .left h1 span{
-        color: gold;
+        color: #FF735C;
     }
 
     .left p{
@@ -99,7 +99,7 @@ html , body{
     .contant button {
         font-size: 1.5vw;
         padding: 1.3vw 2.3vw;
-        background-color: gold;
+        background-color: #FF735C;
         color: white;
         border: none;
         border-radius: 5px;
@@ -159,7 +159,7 @@ html , body{
 .contant button {
     font-size: 3vw;
     padding: 3vw 6vw;
-    background-color: gold;
+    background-color: #FF735C;
     color: white;
     border: none;
     border-radius: 5px;
